@@ -1,0 +1,112 @@
+marquee{
+    font-size: 64px;
+    font-family: 'Nunito', sans-serif;
+}
+.playbutton{
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    background-color: #B6B6B6;
+    width: 110px;
+}
+
+.playbutton:is(:hover, :focus){
+    cursor: pointer;
+    background-color: #919191;
+    outline: 2px solid #B6B6B6;
+    outline-offset: 2px;
+}
+
+html{
+    background-image: url(/img/viaduc_millau_resize.jpg);
+    height: 720px;
+}
+
+.rules{
+    column-span: all;
+}
+
+.text-rules{   
+    columns: 200px 2;
+    column-gap: 25px;
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*Sélection*/
+
+.grand-parent{
+    padding-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-button{
+        margin: auto;
+        border-radius: 15px;
+        border: none;
+        font-size: 32px;
+        font-family: 'Nunito', sans-serif;
+        color: black;
+        background-color: lightgreen;
+        width: 110px;
+        vertical-align: auto;
+    }
+.f-button:is(:hover, :focus){
+        cursor: pointer;
+        background-color: green;
+        outline: 2px solid lightgreen;
+        outline-offset: 2px;
+}
+
+.n-button{
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    background-color: #DF9200;
+    width: 110px;
+    vertical-align: auto;
+}
+.n-button:is(:hover, :focus){
+    cursor: pointer;
+    background-color: #E17000;
+    outline: 2px solid #DF9200;
+    outline-offset: 2px;
+}
+
+.d-button{
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    background-color: #FF0000;
+    width: 110px;
+    vertical-align: auto;
+}
+.d-button:is(:hover, :focus){
+    cursor: pointer;
+    background-color: #D70000;
+    outline: 2px solid #FF0000;
+    outline-offset: 2px;
+}
+
+.explic{
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
